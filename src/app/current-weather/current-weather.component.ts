@@ -17,7 +17,7 @@ export class CurrentWeatherComponent implements OnInit {
       date: 0,
       image: '',
       temperature: 0,
-      description: ''
+      description: '',
     }
   }
 

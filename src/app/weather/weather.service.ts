@@ -46,7 +46,7 @@ export class WeatherService implements IWeatherService {
       date: data.dt * 1000,
       image: `http://openweathermap.org/img/w/${data.weather[0].icon}.png`,
       temperature: this.convertKelvinToFahrenheit(data.main.temp),
-      description: data.weather[0].description
+      description: data.weather[0].description,
     }
   }
 
